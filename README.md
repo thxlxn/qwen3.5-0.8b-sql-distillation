@@ -37,6 +37,16 @@ Evaluated against an unseen test pool of **303 multi-table queries**. Accuracy i
 1. **Hallucination Resolution:** Schema-grounded distillation successfully reduced `no_such_column` errors by **78%**.
 2. **Pareto Efficiency:** The distilled student matches the 9B teacher's execution rate (within 5 queries) while running **2.34x faster**.
 
+## Model Weights and Quick Start
+
+The distilled model weights are open-source and hosted for both rapid local testing and Python integration:
+
+* **Ollama (Recommended for local inference):** [thxlxn/qwen3.5-sql:0.8b](https://ollama.com/thxlxn/qwen3.5-sql:0.8b)
+  ```bash
+  ollama run thxlxn/qwen3.5-sql:0.8b
+  ```
+* **Hugging Face (GGUF Weights):** [thxlxn/qwen3.5-0.8b-sql](https://huggingface.co/thxlxn/qwen3.5-0.8b-sql)
+
 ## Repository Structure
 ```text
 ├── assets/                          # Visualizations and dashboard PNGs
