@@ -1,4 +1,9 @@
 # Procedural Schema Distillation: Qwen 3.5 0.8B | Text-to-SQL
+![Python 3.10+](https://img.shields.io/badge/Python-3.10+-3776AB?logo=python&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white)
+![Ollama](https://img.shields.io/badge/Ollama-white?logo=ollama&logoColor=black)
+![Unsloth](https://img.shields.io/badge/Trained_with-Unsloth-FF4154?logo=huggingface&logoColor=white)
+![License](https://img.shields.io/badge/License-Apache_2.0-blue)<br>
 **Procedural Schema Distillation pipeline for Text-to-SQL tasks. By using Qwen 3.5 9B as a teacher, we fine-tune a Qwen 3.5 0.8B student to recover 95% of the teacher's accuracy while resolving multi-table JOIN hallucinations and running 2.3x faster.**<br>
 
 ![Distillation Dashboard](assets/distillation_dashboard.png)
