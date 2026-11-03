@@ -1,5 +1,5 @@
 # Procedural Schema Distillation: Qwen 3.5 0.8B | Text-to-SQL
-**Procedural Schema Distillation pipeline for Text-to-SQL tasks. By using Qwen 3.5 9B as a teacher, we fine-tune a Qwen 3.5 0.8B student to recover 95% of the teacher's accuracy while resolving multi-table JOIN hallucinations and running 2.3x faster.**
+**Procedural Schema Distillation pipeline for Text-to-SQL tasks. By using Qwen 3.5 9B as a teacher, we fine-tune a Qwen 3.5 0.8B student to recover 95% of the teacher's accuracy while resolving multi-table JOIN hallucinations and running 2.3x faster.**<br>
 
 ![Distillation Dashboard](assets/distillation_dashboard.png)
 
