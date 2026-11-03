@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sql-distillation-qwen"
+version = "0.1.0"
+description = "Schema-Grounded Text-to-SQL distillation pipeline using Qwen models and Unsloth."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "Apache-2.0" }
+authors = [
+    { name = "thxlxn" }
+]
+dependencies = [
+    "requests",
+    "torch>=2.14.0",
+    "transformers>=5.17.0",
+    "datasets",
+    "trl",
+    "unsloth",
+    "matplotlib",
+    "pandas",
+    "numpy",
+    "ipykernel",
+    "ipywidgets"
+]
+
+[project.urls]
+"Source Code" = "https://github.com/thxlxn/qwen3.5-0.8b-sql-distillation"
+
+[tool.setuptools.packages.find]
+where = ["src"]

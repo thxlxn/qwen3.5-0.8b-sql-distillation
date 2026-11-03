@@ -1,0 +1,7 @@
+FROM ./models/Qwen3.5-0.8B.F16.gguf
+TEMPLATE {{ .Prompt }}
+RENDERER qwen3.5
+PARSER qwen3.5
+PARAMETER temperature 0
+PARAMETER stop "<|im_start|>"
+PARAMETER stop "<|im_end|>"
